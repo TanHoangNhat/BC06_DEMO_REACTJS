@@ -1,0 +1,31 @@
+- Single Page Application
+- Next JS
+
+- ReactJS là một thư viện JS
+1/ Cài đặt project:
+	npx-create-react-app <tên app>
+2/ Chạy project:
+	2.1/ Mở terminal ngay tại file package.json
+	(Click phải chọn open in Integrated Terminal)
+	2.2/ Gõ lệnh: npm run start
+3/ Documents (Tài liệu): https://reactjs.org/docs/getting-started.html
+4/ Flow code react:
+	-> index.html
+	-> index.js
+	-> App.js
+5/ ReactJS sẽ không hiểu HTML mà nó chỉ hiểu JSX (class => className, ...)
+6/ Lý do dùng Component là:
+	- Dễ quản lý (chia để trị)
+	- Tái sử dụng
+7/ Điều kiện để tạo ra 1 component:
+	- Tái sử dụng (ưu tiên hàng đầu)
+	- Dễ quản lý 
+8/ Có 2 dạng component:
+	- Class
+	- Function
+*Bonus:
+1/ Một website thường có 2 dạng:
+	- Single Page Application (Chuyển trang mà không bị load -> performence tốt hơn) SPA
+	- Multiple Page Application (Chuyển trang bị load) MPA
+2/ Về SEO thì MPA tốt hơn SPA
+3/ ReactJS (Single Page Application) thì không SEO tốt nhưng NEXTJS (nextjs.org) giúp reactJS SEO tốt hơn
