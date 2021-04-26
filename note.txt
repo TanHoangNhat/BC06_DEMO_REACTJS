@@ -23,6 +23,23 @@
 8/ Có 2 dạng component:
 	- Class
 	- Function
+9/ data-binding: là cách đưa biến hay thuộc tính của JS ra ngoài HTML
+10/ state: 
+	- Dùng để lưu những dữ liệu của Component
+	- Giúp đồng bộ UI và Value của Component
+11/ props:
+	- props là thuộc tính của component (property)
+	- props dùng để truyền data từ component -> component
+12/ Điều kiện để lưu state:
+	- Là nơi chứa các nút xử lý
+	- Là nơi chứa các giao diện hiển thị
+13/ State định nghĩa ở component nào thì các hàm xử lý setState phải định nghĩa ở component đó
+14/ Tại sao phải dùng Redux:
+	- Bất lợi trước khi dùng Redux (Truyền props qua nhiều component) 
+	- Lợi ích khi dùng Redux (Store)
+15/ Trình bày luồng code của Redux?
+
+
 *Bonus:
 1/ Một website thường có 2 dạng:
 	- Single Page Application (Chuyển trang mà không bị load -> performence tốt hơn) SPA
