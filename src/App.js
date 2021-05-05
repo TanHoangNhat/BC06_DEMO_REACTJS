@@ -8,8 +8,9 @@ import DemoDataBinding from "./data-binding/DemoDataBinding";
 import ShowRoomCar from "./show-room-car/ShowRoomCar";
 import RenderWithMap from "./render-with-map/RenderWithMap";
 import Parent from "./props/Parent";
-import AppXucXac from "./app-xuc-xac/AppXucXac";
+import AppXucXacRedux from "./app-xuc-xac-redux/AppXucXac";
 import CauThu from "./AppCauThu/CauThu";
+import DemoLifeCycleComponent from "./life-cycle-component/DemoLifeCycleComponent";
 
 function App() {
   return (
@@ -25,7 +26,10 @@ function App() {
       {/* <RenderWithMap /> */}
       {/* <Parent /> */}
       {/* <AppXucXac /> */}
-      <CauThu />
+      {/* <CauThu /> */}
+      {/* <AppXucXac /> */}
+      {/* <AppXucXacRedux /> */}
+      <DemoLifeCycleComponent />
     </div>
   );
 }
