@@ -22,6 +22,7 @@ import { createStore } from "redux";
 // Cung cấp store cho các component
 import { Provider } from "react-redux";
 import rootReducer from "./redux/reducers/rootReducer";
+
 const store = createStore(
   rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()

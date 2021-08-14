@@ -20,7 +20,10 @@ export class BanChoi extends Component {
           taiOrXiu={true}
         />
         <div className="col-4">
-          <div className="d-flex justify-content-center">
+          <div
+            style={{ position: "relative" }}
+            className="d-flex justify-content-center"
+          >
             {xucXacs.map((xucXac, i) => {
               return <XucXac key={i} xucXac={xucXac} />;
             })}

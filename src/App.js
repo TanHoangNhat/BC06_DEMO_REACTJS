@@ -28,8 +28,8 @@ function App() {
       {/* <AppXucXac /> */}
       {/* <CauThu /> */}
       {/* <AppXucXac /> */}
-      {/* <AppXucXacRedux /> */}
-      <DemoLifeCycleComponent />
+      <AppXucXacRedux />
+      {/* <DemoLifeCycleComponent /> */}
     </div>
   );
 }
